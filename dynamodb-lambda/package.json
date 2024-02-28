@@ -1,11 +1,11 @@
 {
   "name": "dynamodb-lambda",
   "version": "0.0.1",
-  "description": "lambda triggered by dynamodb",
-  "main": "../dynamodb-lambda/dist/src/index.js",
+  "description": "lambda triggered by dynamodb and send message to sqs",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "npm run test",
-    "compile": "npx rimraf ../sqs-lambda/dist && npx tsc -b",
+    "compile": "npx rimraf dist && npx tsc -b",
     "deploy": "deploy.sh"
   },
   "keywords": [

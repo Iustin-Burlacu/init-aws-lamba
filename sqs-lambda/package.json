@@ -2,10 +2,10 @@
   "name": "sqs-lambda",
   "version": "0.0.1",
   "description": "lambda triggered by sqs",
-  "main": "../sqs-lambda/dist/src/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "npm run test",
-    "compile": "npx rimraf ../sqs-lambda/dist && npx tsc -b",
+    "compile": "npx rimraf dist && npx tsc -b",
     "deploy": "deploy.sh"
   },
   "keywords": [
