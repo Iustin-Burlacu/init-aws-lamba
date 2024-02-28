@@ -16,14 +16,13 @@
 		"noFallthroughCasesInSwitch": true,
 		"strictPropertyInitialization": false,
 		"experimentalDecorators": true,
-    "outDir": "../sqs-lambda/dist",
+	  "outDir": "dist",
 	  "rootDir": "./",
-	  "baseUrl": "../sqs-lambda/src",
-	  "composite": true
-	},
+	  "baseUrl": "src",
+	  "composite": true,
+  },
 	"exclude": [
-		"node_modules/**/*", ".vscode/**/*", "../sqs-lambda/dist",
-      "./typings", "./dist/**/*"
+		"node_modules/**/*", ".vscode/**/*", "./dist", "./typings", "./dist/**/*"
 	],
 	"include": [
 		"src/**/*"
